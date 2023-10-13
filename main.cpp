@@ -21,7 +21,7 @@
  * GRADING to 0.
  */
 
-#define GRADING 1
+#define GRADING 0
 
 #include "grading/grading.hpp"
 #include "td3.hpp"
@@ -35,7 +35,7 @@ int main(int argc, char *argv[]) {
   // This code will be executed only if you set GRADING to a value different
   // from 1
 
-  {}
+  { std::cout << "First git commit" << std::endl; }
   // END OF THE CUSTOM CODE SECTION
 #else
   // RUN THE AUTOMATIC GRADER
